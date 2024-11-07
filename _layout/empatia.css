@@ -1,0 +1,133 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.mapa-empatia {
+  width: 800px;
+  background-color: #009688;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+}
+
+.grid-container {
+  position: relative;
+  height: 400px;
+}
+
+.pensar {
+  position: absolute;
+  top: 0;
+  left: 38%;
+}
+
+.ver {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: rotate(90deg);
+}
+
+.falar {
+  position: absolute;
+  bottom: 0;
+  left: 38%;
+}
+
+.ouvir {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: rotate(270deg);
+}
+
+#hr1 {
+  transform: rotate(28deg);
+  transform-origin: 0 0;
+  width: 110%;
+}
+
+#hr2 {
+  width: 110%;
+  transform: rotate(332deg) translateX(-60px) translateY(-40px);
+  transform-origin: 100% 100%;
+}
+
+span {
+  font-size: 13px;
+}
+
+.pensar1 {
+  width: 400px;
+  position: absolute;
+  top: 40px;
+  left: 24%;
+}
+
+.ver1 {
+  width: 210px;
+  position: absolute;
+  top: 35%;
+  right: 50px;
+}
+
+.falar1 {
+  width: 350px;
+  position: absolute;
+  bottom: 34px;
+  left: 27%;
+}
+
+
+.ouvir1 {
+  width: 200px;
+  position: absolute;
+  top: 34%;
+  left: 55px;
+}
+
+
+
+.grid-items {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: stretch;
+}
+
+.grid-item {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.dores {
+  background-color: #388E3C;
+}
+
+.ganhos {
+  background-color: #1976D2;
+}
